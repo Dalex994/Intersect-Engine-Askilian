@@ -1,8 +1,8 @@
-name: Intersect (main)
+name: Ereda (release)
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "release" ]
     paths-ignore:
       - '.github/**'
       - 'Documentation/**'
