@@ -18,20 +18,29 @@ jobs:
       - name: Sync with upstream
         run: git remote add upstream https://github.com/AscensionGameDev/Intersect-Engine.git && git fetch upstream && git checkout main && git merge upstream/main
 
-      - name: Merge dev into main
+      - name: Merge Dev into Main
         run: |
           git checkout main
           git merge origin/dev --no-ff --no-commit
           git checkout -- .
 
-      - name: Keep images from dev branch
+      - name: Keep images from Dev branch (personalized icons&cie)
         run: |
           git checkout dev -- '*.png' '*.ico' '*.bmp' '*.svg'
           git add .
           git commit -m "Merge dev into main keeping images"
 
-      - name: Push changes to release branch
+      - name: Push changes to Release branch
         run: |
           git push origin main
           git checkout -b release
           git push origin release
+
+      - name: Push from Release to Dev to prepare the next feature dev
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git fetch
+          git checkout -b dev origin/dev
+          git merge origin/release --no-edit
+          git push origin dev
