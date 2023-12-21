@@ -9,15 +9,10 @@ on:
     inputs:
       name:
         type: choice
-        description: You must be sure to check the valability of your code
+        description: You must be sure to check the valability of your code before
         options:
         - Yes, sure
         - No, I will check that
-      message:
-        required: true
-      environment:
-        type: environment 
-      
       
 
 jobs:
