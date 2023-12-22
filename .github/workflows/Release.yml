@@ -1,4 +1,4 @@
-name: Sync and Merge Workflow
+name: Sync and Merge (Test) 
 
 on:
   push:
