@@ -1,8 +1,8 @@
-name: Ereda (release)
+name: Ereda (dev, but release when rUFR completed)
 
 on:
   push:
-    branches: [ "release" ]
+    branches: [ "dev" ]
     paths-ignore:
       - '.github/**'
       - 'Documentation/**'
