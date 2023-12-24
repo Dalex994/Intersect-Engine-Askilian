@@ -108,7 +108,7 @@ namespace Intersect.Editor.Forms
             picLogo.Location = new System.Drawing.Point(71, 27);
             picLogo.Margin = new Padding(4, 5, 4, 5);
             picLogo.Name = "picLogo";
-            picLogo.Size = new Size(701, 267);
+            picLogo.Size = new Size(701, 282);
             picLogo.TabIndex = 4;
             picLogo.TabStop = false;
             // 
