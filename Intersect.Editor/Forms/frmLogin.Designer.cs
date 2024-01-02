@@ -1,4 +1,4 @@
-﻿using System.ComponentModel;
+using System.ComponentModel;
 using System.Windows.Forms;
 using DarkUI.Controls;
 using Timer = System.Windows.Forms.Timer;
@@ -156,7 +156,7 @@ namespace Intersect.Editor.Forms
             lblGettingStarted.Name = "lblGettingStarted";
             lblGettingStarted.Size = new Size(484, 89);
             lblGettingStarted.TabIndex = 8;
-            lblGettingStarted.Text = "Getting Started?\r\n1. Start the Intersect Server\r\n2. Open the Intersect Client & Create an Account\r\n3. Login to that account here to start designing your game!";
+            lblGettingStarted.Text = "Getting Started?\r\n1. Start the Ereda Server\r\n2. Open the Ereda Client & Create an Account\r\n3. Login to that account here to start designing your game!";
             // 
             // chkRemember
             // 
@@ -191,7 +191,7 @@ namespace Intersect.Editor.Forms
             MaximizeBox = false;
             Name = "FrmLogin";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Intersect Editor Login";
+            Text = "Ereda Editor Login";
             Load += frmLogin_Load;
             KeyDown += FrmLogin_KeyDown;
             ((ISupportInitialize)picLogo).EndInit();
