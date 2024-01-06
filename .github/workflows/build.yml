@@ -1,8 +1,8 @@
-name: Ereda (dev, but release when rUFR completed)
+name: Intersect (main)
 
 on:
   push:
-    branches: [ "dev" ]
+    branches: [ "main" ]
     paths-ignore:
       - '.github/**'
       - 'Documentation/**'

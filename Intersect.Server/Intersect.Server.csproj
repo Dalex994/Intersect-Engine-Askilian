@@ -20,7 +20,6 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <FileAlignment>512</FileAlignment>
     <GenerateRuntimeConfigurationFiles>True</GenerateRuntimeConfigurationFiles>
-    <ApplicationIcon>$(IntersectRepoPath)\assets\intersect-logo-qu.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
