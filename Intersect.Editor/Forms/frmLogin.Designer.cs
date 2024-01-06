@@ -156,14 +156,14 @@ namespace Intersect.Editor.Forms
             lblGettingStarted.Name = "lblGettingStarted";
             lblGettingStarted.Size = new Size(484, 89);
             lblGettingStarted.TabIndex = 8;
-            lblGettingStarted.Text = "Getting Started?\r\n1. Start the Ereda Server\r\n2. Open the Ereda Client & Create an Account\r\n3. Login to that account here to start designing your game!";
+            lblGettingStarted.Text = "Getting Started?\r\n1. Start the Ereda Server\r\n2. Open the Ereda Client and Create an Account\r\n3. Login to that account here to start designing your game!";
             // 
             // chkRemember
             // 
             chkRemember.AutoSize = true;
             chkRemember.ForeColor = System.Drawing.Color.White;
             chkRemember.Location = new System.Drawing.Point(643, 402);
-            chkRemember.Margin = new Padding(4, 5, 4, 5);
+            chkRemember.Margin = new Padding(4, 5, 4, 5);  
             chkRemember.Name = "chkRemember";
             chkRemember.Size = new Size(129, 24);
             chkRemember.TabIndex = 3;

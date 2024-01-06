@@ -1,4 +1,4 @@
-﻿using System.ComponentModel;
+using System.ComponentModel;
 using System.Windows.Forms;
 using DarkUI.Controls;
 using Timer = System.Windows.Forms.Timer;
@@ -140,7 +140,7 @@ namespace Intersect.Editor.Forms
             MaximizeBox = false;
             Name = "FrmUpdate";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Intersect Editor - Updating";
+            Text = "Ereda Editor - Updating";
             Load += frmUpdate_Load;
             ((ISupportInitialize)picLogo).EndInit();
             ResumeLayout(false);
