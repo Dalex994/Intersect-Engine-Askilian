@@ -1,4 +1,4 @@
-﻿namespace Intersect.Editor.Forms
+namespace Intersect.Editor.Forms
 {
     partial class FrmAbout
     {
@@ -76,7 +76,7 @@
             this.lblVersion.Name = "lblVersion";
             this.lblVersion.Size = new System.Drawing.Size(305, 15);
             this.lblVersion.TabIndex = 3;
-            this.lblVersion.Text = "v. 1.0.0.0";
+            this.lblVersion.Text = "v. 0.8.0.0";
             this.lblVersion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // FrmAbout
